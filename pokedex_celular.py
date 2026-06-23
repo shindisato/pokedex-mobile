@@ -40,7 +40,7 @@ if botao_buscar and entrada_nome:
             f"Nome desse lixo: {entrada_nome.upper()}\n\n"
             f"Altura pra saber se cabe numa gaiola: {altura:.2f} m\n\n"
             f"Peso desse monte de bosta: {peso:.1f} kg\n\n"
-            f"Poderzin do idiota:\n" + ", ".join(habilidades)
+            f"Poderzin que esse idiota tem:\n" + ", ".join(habilidades)
         )
         
         # Exibe a imagem caso exista
