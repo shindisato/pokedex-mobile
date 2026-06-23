@@ -91,7 +91,5 @@ def main(page: ft.Page):
         )
     )
 
-# Linha correta para rodar na nuvem
-import os
-
-ft.app(target=main, view=ft.AppView.WEB_BROWSER, port=int(os.environ.get("PORT", 8550)), host="0.0.0.0")
+# Substitua a última linha por esta exatamente assim:
+ft.app(target=main, view=ft.AppView.WEB_BROWSER)
